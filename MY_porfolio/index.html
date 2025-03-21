@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+
+        img {
+            width: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            right: 50px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .column {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+
+        }
+
+        .column h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #444;
+            cursor: pointer;
+        }
+
+        .column a {
+            display: block;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .column a:hover {
+            text-decoration: underline;
+            scale: 1.20;
+            color: #000000;
+            transition: 0.3s;
+
+        }
+
+        .column:hover {
+            transition: 0.5s;
+            box-shadow: 0.2px 0.2px 8px 0.2px #9e9e9e;
+            background-color: rgb(144, 238, 144);
+            scale: 1.05;
+            cursor: pointer;
+
+
+
+
+        }
+
+        @media (max-width: 768px) {
+            img {
+                top: 20px;
+                right: 100px;
+                left: 100px;
+                position: absolute;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header {
+                padding-top: 150px;
+            }
+
+            .column {
+                width: 80%;
+            }
+        }
+
+        h1 {
+            margin: 20px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <header>MY CENTER PROJECT</header>
+        <h1>ABDURREHMAN ANSARI</h1>
+        <img src="image/profile.jpg" alt="">
+    </div>
+    <div class="container">
+        <div class="column">
+            <h2>NAVTTC TASK</h2>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task1_navttc/" target="_blank">Navttc Task
+                1</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task2_navttc/comment.html"
+                target="_blank">Navttc Task 2</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task3_navttc/" target="_blank">Navttc Task
+                3</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task4_navttc/index/" target="_blank">Navttc
+                Task 4</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task5_navttc/" target="_blank">Navttc Task
+                5</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task6_navttc/" target="_blank">Navttc Task
+                6</a>
+        </div>
+        <div class="column">
+            <h2>COMSTECH TASK</h2>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task1_comstech/index.html"
+                target="_blank">Comstech Task 1</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/task9_comstech/" target="_blank">Comstech Task
+                9</a>
+            <a href="#">Comstech Task 3</a>
+        </div>
+        <div class="column">
+            <h2>PARACTICE TASK</h2>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250313/" target="_blank">20250313</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250314/index.html"
+                target="_blank">20250314</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250315/" target="_blank">20250315</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250317/" target="_blank">20250317</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250318/" target="_blank">20250318</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250319/" target="_blank">20250319</a>
+            <a href="https://ansari1k5.github.io/abdurrehman_navttc_2025/20250320/" target="_blank">20250320</a>
+        </div>
+    </div>
+</body>
+
+</html>
